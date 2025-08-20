@@ -14,7 +14,8 @@ import Founders from "./pages/founders/founders";
 import Solopreneurs from "./pages/solopreneurs/solopreneurs";
 import Management from "./pages/management/management";
 import Header from "./components/header"
-
+import BenchSales from "./pages/benchsales/benchsales";
+import './App.css'
 export default function App() {
   return (
     <Router>
@@ -23,6 +24,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/benchsales" element={<BenchSales />} />
           <Route path="/human-resources" element={<HumanResources />} />
           <Route path="/recruitment" element={<Recruitment />} />
           <Route path="/operation" element={<Opertaion />} />

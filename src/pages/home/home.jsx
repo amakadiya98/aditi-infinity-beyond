@@ -98,20 +98,20 @@ export default function Home() {
             </section>
             <section>
                 <div className="custom-container">
-                    <h3 className="text-bricolage font-bold xl:text-[50px] sm:text-[34px] text-[26px]  text-center text-white">Seamless AI Integration in 3 Easy Steps!</h3>
+                    <h3 className="font-bricolage font-bold xl:text-[50px] sm:text-[34px] text-[26px]  text-center text-white">Seamless AI Integration in 3 Easy Steps!</h3>
                 </div>
                 <div className="custom-container pt-[80px]  md:pt-[100px] lg:pt-[200px] 2xl:pt-[315px]">
-                    <div className="text-bricolage font-bold text-[16px] sm:text-[16px] md:text-[20px] lg:text-[40px]  xl:text-[50px]] text-white pb-[30px] md:pb-[40px] lg:pb-[60px] xl:pb-[70px] tracking-[0px] sm:leading-[50px] md:tracking-[-1.03px] md:leading-[50px]">
-                        <p>01</p>
-                        <p>In-Depth Discovery</p>
+                    <div className="font-bricolage font-bold text-[16px] sm:text-[16px] md:text-[20px] lg:text-[40px]  xl:text-[50px]] text-white pb-[30px] md:pb-[40px] lg:pb-[60px] xl:pb-[70px] tracking-[0px] sm:leading-[50px] md:tracking-[-1.03px] md:leading-[50px]">
+                        <p className="font-bricolage">01</p>
+                        <p className="font-bricolage">In-Depth Discovery</p>
                     </div>
-                    <div className="text-bricolage font-bold text-[16px] sm:text-[16px] md:text-[20px] lg:text-[40px]  xl:text-[50px]] text-white pb-[30px] md:pb-[40px] lg:pb-[60px] xl:pb-[70px] tracking-[0px] sm:leading-[50px] md:tracking-[-1.03px] md:leading-[50px]">
-                        <p>02</p>
-                        <p>Customized Solution Design</p>
+                    <div className="font-bricolage font-bold text-[16px] sm:text-[16px] md:text-[20px] lg:text-[40px]  xl:text-[50px]] text-white pb-[30px] md:pb-[40px] lg:pb-[60px] xl:pb-[70px] tracking-[0px] sm:leading-[50px] md:tracking-[-1.03px] md:leading-[50px]">
+                        <p className="font-bricolage">02</p>
+                        <p className="font-bricolage">Customized Solution Design</p>
                     </div>
-                    <div className="text-bricolage font-bold text-[16px] sm:text-[16px] md:text-[20px] lg:text-[40px]  xl:text-[50px]] text-white pb-[30px] md:pb-[40px] lg:pb-[60px] xl:pb-[70px] tracking-[0px] sm:leading-[50px] md:tracking-[-1.03px] md:leading-[50px]">
-                        <p>03</p>
-                        <p>Seamless Deployment and Continuous Improvement</p>
+                    <div className="font-bricolage font-bold text-[16px] sm:text-[16px] md:text-[20px] lg:text-[40px]  xl:text-[50px]] text-white pb-[30px] md:pb-[40px] lg:pb-[60px] xl:pb-[70px] tracking-[0px] sm:leading-[50px] md:tracking-[-1.03px] md:leading-[50px]">
+                        <p className="font-bricolage">03</p>
+                        <p className="font-bricolage">Seamless Deployment and Continuous Improvement</p>
                     </div>
                 </div>
             </section>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -69,4 +70,237 @@ body{
     max-width: 1620px;
     margin: 0 auto;
     width: 90%;
+}
+
+a.active hr{
+  display: block;
+}
+ 
+*{
+  font-family: Outfit;
+}
+
+.bodoni-moda-uniquifier {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+@media (max-width: 640px) {
+
+  a.active{
+    background-color: black;
+    color: white;
+  }
+}
+
+
+@layer utilities {
+  .scroller[data-animated="true"] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(
+      90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent
+    );
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  }
+
+  .scroller[data-animated="true"] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--_animation-duration, 40s)
+      var(--_animation-direction, forwards) linear infinite;
+  }
+
+  .scroller[data-direction="right"] {
+    --_animation-direction: reverse;
+  }
+
+  .scroller[data-direction="left"] {
+    --_animation-direction: forwards;
+  }
+
+  .scroller[data-speed="fast"] {
+    --_animation-duration: 20s;
+  }
+
+  .scroller[data-speed="slow"] {
+    --_animation-duration: 60s;
+  }
+
+  @keyframes scroll {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
+  }
+}
+
+
+@keyframes letterAnimation {
+  0% {
+    font-weight: 400;
+    font-size: 1em;
+    transform: scale(1);
+  }
+  50% {
+    font-weight: 900;
+    font-size: 1.5em;
+    transform: scale(1.2);
+  }
+  100% {
+    font-weight: 400;
+    font-size: 1em;
+    transform: scale(1);
+  }
+}
+
+.animate-letter {
+  animation: letterAnimation 0.6s ease-in-out forwards; 
+}
+
+
+@layer components {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+  .transform-origin-top-center {
+    transform-origin: top center;
+  }
+ .translate-z-neg-50 {
+  transform: translateZ(-50px);
+}
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px); /* Adjusted for downward direction */
+ }
+}
+
+.animate-rotate {
+  animation: rotate 5s infinite linear;
+}
+
+.animate-bounce {
+  animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes letterAnimation {
+  0% {
+    font-weight: 400;
+    font-size: 1em;
+    transform: scale(1);
+  }
+  50% {
+    font-weight: 900;
+    font-size: 1.5em;
+    transform: scale(1.2);
+  }
+  100% {
+    font-weight: 400;
+    font-size: 1em;
+    transform: scale(1);
+  }
+}
+
+
+
+
+/* 
+.hidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}  */
+
+
+
+
+
+
+
+
+@layer utilities {
+  .animate-delay-200 {
+    animation-delay: 0.2s;
+  }
+  .animate-delay-400 {
+    animation-delay: 0.4s;
+  }
+  .animate-delay-600 {
+    animation-delay: 0.6s;
+  }
+}
+
+
+/* Custom Animations */
+@keyframes circle-size {
+  from {
+    width: 250px;
+    height: 250px;
+  }
+  to {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@keyframes shadow-rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Apply Animations */
+.animate-circle-size {
+  animation: circle-size 0.8s linear infinite alternate;
+}
+
+.animate-shadow-rotate {
+  animation: shadow-rotate 1.5s linear infinite;
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 4s steps(40, end) infinite;
 }

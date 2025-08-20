@@ -1,0 +1,299 @@
+body{
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+
+#dragcontainer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+  transform-style: preserve-3d;
+  transform: rotateX(-10deg);
+  
+}
+
+#spincontainer {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform-style: preserve-3d;
+  transform: rotateX(-10deg);
+  position: fixed;
+ 
+}
+
+#spincontainer img {
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 8px #fff;
+  box-reflect: below 2px linear-gradient(transparent, transparent, #0005);
+}
+
+#spincontainer img:hover {
+  box-shadow: 0 0 15px #fffd;
+}
+
+#dragcontainer p {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateX(90deg);
+  color: #fff;
+}
+
+#ground {
+  width: 900px;
+  height: 900px;
+  position: absolute;
+  top: 100%;
+  left: 310px;
+  transform: translate(-43%, -35%) rotateX(90deg);
+  background: radial-gradient(center, farthest-side, #9993, transparent);
+} 
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes spinrevert {
+  from {
+    transform: rotateY(360deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0) translateZ(0);
+  }
+  50% {
+    transform: translateY(-7px) translateZ(20px);
+  }
+  100% {
+    transform: translateY(0) translateZ(0);
+  }
+} 
+
+/* .animate-float {
+  animation: float 3s ease-in-out infinite;
+} */
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientAnimation 3s infinite alternate ease-in-out;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+
+
+/* 
+.hidden {
+  margin: 500px auto;
+  padding: 50px;
+  max-width: 600px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+ .show {
+  opacity: 1;
+  transform: translateY(0);
+}  */
+
+@keyframes rotateLetter {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg); /* Rotate 360 degrees for a full spin */
+  }
+}
+
+.hover\:animate-rotateLetter:hover {
+  animation: rotateLetter 0.5s ease-in-out;
+  display: inline-block; /* Ensure the span is treated as a block for transformation */
+}
+
+@keyframes gradient-line {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-line {
+  background-size: 200% 200%;
+  animation: gradient-line 3s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+}
+
+
+
+
+/* Typing Animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+.typing-animation {
+  overflow: hidden; /* Ensures the text doesn't overflow */
+  border-right: 0.15em solid white; /* Creates the caret effect */
+  white-space: nowrap; /* Keeps the text in a single line */
+  margin: 0 auto; /* Centers the text */
+  letter-spacing: 0.15em; /* Adjust spacing for better readability */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+
+
+
+.shadow-animation {
+  transform-origin: bottom;
+  transform: scaleY(0);
+  opacity: 0;
+}
+
+/* Wishlist.css */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    color: #ff6b6b; /* Red */
+  }
+  25% {
+    color: #ffd166; /* Yellow */
+  }
+  50% {
+    transform: scale(1.2);
+    color: #06d6a0; /* Green */
+  }
+  75% {
+    color: #118ab2; /* Blue */
+  }
+  100% {
+    transform: scale(1);
+    color: #ff6b6b; /* Red */
+  }
+}
+
+.heart-pulse {
+  animation: pulse 2s infinite ease-in-out;
+}
+
+
+
+
+
+
+
+/* Gradient Loading Spinner */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.gradient-spinner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    #6661ff 0%,
+    #6b5b95 25%,
+    #4bb09c 50%,
+    #f7cac9 75%,
+    #617eff 100%
+  );
+  animation: spin 1s linear infinite;
+  position: relative;
+}
+
+.gradient-spinner::after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  background: black; /* Background color of the inner circle */
+  border-radius: 50%;
+}
