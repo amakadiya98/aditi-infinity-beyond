@@ -115,7 +115,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="2xl:mb-[480px] xl:mb-[200px] md:mb-[100px] mb-[60px]">
+            <section className="2xl:mb-[200px] xl:mb-[100px] md:mb-[100px] mb-[60px]">
                 <div className="custom-container">
                     <div className="flex justify-center items-center lg:flex-nowrap flex-wrap gap-[55px]">
                         <div className="w-full max-w-[280px]">

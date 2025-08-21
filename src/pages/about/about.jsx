@@ -171,7 +171,7 @@ export default function About() {
           </div>
         
       </div>
-      <section className="2xl:mb-[480px] xl:mb-[200px] md:mb-[100px] mb-[60px]">
+      <section className="2xl:mb-[200px] xl:mb-[100px] md:mb-[100px] mb-[60px]">
       <div className="custom-container">
           <button className="flex sm:mt-[70px] max-w-[660px] mt-[40px] mx-auto bg-[#00000033] w-full justify-center items-center border-[0.5px] border-gray-500 py-[16px] rounded-full text-[#FFFFFF] shadow-[0_0_10px_rgba(255,255,255,0.05)] relative ">
           <p className=" font-dm font-bold xl:text-4xl lg:text-2xl text-xl mr-[44px]">

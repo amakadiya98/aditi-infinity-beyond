@@ -10,11 +10,13 @@ export default function Header() {
         <div className="flex justify-between items-center py-[20px] md:py-[24px] lg:py-[28px]">
      
           <div className="flex items-center">
-            <img
-              src="/images/logo.svg"
-              alt="Infinity & Beyond"
-              className="2xl:max-w-[280px] md:max-w-[240px] sm:max-w-[200px] max-w-[160px] h-auto filter brightness-110 contrast-125"
-            />
+            <a href="/" aria-label="Infinity & Beyond">
+              <img
+                src="/images/logo.svg"
+                alt="Infinity & Beyond"
+                className="2xl:max-w-[280px] md:max-w-[240px] sm:max-w-[200px] max-w-[160px] h-auto filter brightness-110 contrast-125"
+              />
+            </a>
           </div>
 
           <div className="hidden xl:flex items-center space-x-[24px]">
