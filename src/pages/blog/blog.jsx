@@ -7,24 +7,21 @@ export default function Blog() {
     {
       id: 1,
       image: "/images/blog-1.jpg",
-      category: "Alga Biosciences",
-      date: "Sep 3, 2023",
-      heading: "Placed Formulation Scientists and Microbiologists ",
+      category: "Job Jarvis",
+      date: "Sep 10, 2024",
+      heading: "The Business Impact of Job Jarvis: Automating Job Applications ",
       description:
-        "At Job Jarvis, speed and precision in recruitment are more than just buzzwords—they're the foundation of how we operate. The moment a role goes live, our automation ensures applications reach the right recruiters within minutes. This edge has consistently translated into faster shortlists, quicker interview calls, and successful placements across some of the most innovative startups. ",
-      author: "Caroline McKeon",
-      authorImage: "/images/author-img.jpeg",
+        "In today’s fast-paced job market, time and efficiency are everything. Job seekers often spend countless hours filling out repetitive applications, uploading the same documents, and tailoring cover letters. At the same time, businesses are overwhelmed by the sheer number of applications, many of which don’t match the role. Job Jarvis is changing that. As an AI-powered automation platform, it streamlines the job application process for candidates while delivering better results for employers",
     },
     {
       id: 2,
       image: "/images/blog-2.jpg",
-      category: "Angle Health",
-      date: "Sep 10, 2023",
-      heading: " Placed Backend Engineers & Data Scientists",
+      category: "Job Jarvis",
+      date: "Feb 12, 2025",
+      heading: "Roles Filled by Job Jarvis in the Past Few Months",
       description:
-        "Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.",
-      author: "Albert Flores",
-      authorImage: "/images/author-img.jpeg",
+        "At Job Jarvis, speed and precision in recruitment are more than just buzzwords—they’re the foundation of how we operate. The moment a role goes live, our automation ensures applications reach the right recruiters within minutes. This edge has consistently translated into faster shortlists, quicker interview calls, and successful placements across some of the most innovative startups.",
+     
     },
     {
       id: 3,

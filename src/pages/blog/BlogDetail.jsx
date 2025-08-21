@@ -10,73 +10,74 @@ export default function BlogDetail() {
     {
       id: 1,
       image: "/images/blog-1.jpg",
-      category: "Processes & Tools",
-      date: "Sep 3, 2023",
-      heading: "Roles Filled by Job Jarvis in the Past Few Months",
+      category: "Job Jarvis",
+      date: "Sep 10, 2024",
+      heading: "The Business Impact of Job Jarvis: Automating Job Applications",
       description:
-        "At Job Jarvis, speed and precision in recruitment are more than just buzzwords—they're the foundation of how we operate. The moment a role goes live, our automation ensures applications reach the right recruiters within minutes. This edge has consistently translated into faster shortlists, quicker interview calls, and successful placements across some of the most innovative startups.",
+        "In today’s fast-paced job market, time and efficiency are everything. Job seekers often spend countless hours filling out repetitive applications, uploading the same documents, and tailoring cover letters. At the same time, businesses are overwhelmed by the sheer number of applications, many of which don’t match the role.Job Jarvis is changing that. As an AI-powered automation platform, it streamlines the job application process for candidates while delivering better results for employers.",
       fullContent: `
         <p>At Job Jarvis, speed and precision in recruitment are more than just buzzwords—they're the foundation of how we operate. The moment a role goes live, our automation ensures applications reach the right recruiters within minutes. This edge has consistently translated into faster shortlists, quicker interview calls, and successful placements across some of the most innovative startups.</p>
         
-        <h3>The Power of Automation in Recruitment</h3>
-        <p>Our AI-powered system doesn't just collect applications; it intelligently sorts, ranks, and routes them to the most suitable recruiters based on skill requirements, experience levels, and cultural fit indicators. This means that by the time a human recruiter looks at an application, it's already been pre-screened and prioritized.</p>
+        <h3>What is Job Jarvis?</h3>
+        <p>Job Jarvis is a smart automation tool designed to take the heavy lifting out of job hunting. It:</p>
         
         <h3>Real Results from Real Companies</h3>
         <p>In the past few months alone, Job Jarvis has successfully filled roles across various industries:</p>
-        <ul>
-          <li><strong>Tech Startups:</strong> Senior developers, product managers, and UX designers</li>
-          <li><strong>Fintech:</strong> Compliance officers, risk analysts, and blockchain developers</li>
-          <li><strong>Healthcare:</strong> Clinical researchers, data scientists, and regulatory specialists</li>
-          <li><strong>E-commerce:</strong> Supply chain managers, marketing specialists, and customer success leads</li>
+        <ul class="list-disc">
+          <li>Scrapes and matches jobs based on skills, resume, and preferences.</li>
+          <li>Personalizes applications to align with job descriptions.</li>
+          <li>Automates submissions across Job boards and career sites</li>
+          <li>Tracks application status by integrating with email.</li>
+        </ul>
+        <p>Instead of managing dozens of tabs and repeating the same steps, job seekers can focus on what matters most—interviews and career growth.</p>
+        
+        <h3>How It Impacts Job Seekers</h3>
+        
+        <ul class="list-disc">
+          <li><strong>Faster Applications:</strong> Apply to more jobs in less time without losing quality.</li>
+          <li><strong>Better Matches:</strong> Focus on roles that align with your profile and skills.</li>
+          <li><strong>Increased Opportunities:</strong> Higher volume of personalized applications means more chances to get noticed.</li>
+          <li><strong>Less Stress:</strong> Automation removes the frustration of repetitive tasks.</li>
+        </ul>
+
+        <h3>How It Impacts Businesses</h3>
+        <p>While designed for candidates, employers benefit as well:</p>
+        <ul class="list-disc">
+          <li><strong>Higher-Quality Applications: </strong>  Job Jarvis filters for relevance, reducing spam.</li>
+          <li><strong>Quicker Hiring Cycles:</strong> Recruiters connect with better-fit candidates faster.</li>
+          <li><strong>Improved Efficiency:</strong>  Less time wasted sorting through unqualified resumes.</li>
         </ul>
         
-        <h3>What Makes Us Different</h3>
-        <p>Unlike traditional recruitment agencies that rely heavily on manual processes, Job Jarvis leverages machine learning algorithms that continuously improve with each placement. Our system learns from successful hires to better predict candidate success in future roles.</p>
+          <h3>What to Expect</h3>
+          <p>With Job Jarvis, the application process becomes smarter, faster, and more effective. For job seekers, it means more interviews and better opportunities. For businesses, it means finding the right talent with less effort.</p>
         
-        <p>The result? Companies using Job Jarvis report:</p>
-        <ul>
-          <li>40% faster time-to-hire</li>
-          <li>60% improvement in candidate quality</li>
-          <li>80% reduction in recruitment costs</li>
-          <li>95% client satisfaction rate</li>
-        </ul>
-        
-        <h3>Looking Ahead</h3>
-        <p>As we continue to refine our algorithms and expand our network, we're excited to help even more companies find their perfect hires. The future of recruitment is here, and it's faster, smarter, and more efficient than ever before.</p>
-      `,
-      author: "Jerome Bell",
-      authorImage: "/images/author-img.jpeg",
-      authorBio:
-        "Jerome Bell is a recruitment technology expert with over 10 years of experience in HR automation and AI-driven hiring solutions.",
-      readTime: "5 min read",
+
+            <h3>Why Adopt Job Application Automation Now</h3>
+            <p>Automation is no longer optional—it’s the next step in modern hiring. By embracing platforms like Job Jarvis, job seekers can gain a competitive edge, and businesses can strengthen their recruitment pipelines.
+            </p>
+            <p>Ready to see the difference? Sign up with Job Jarvis today and experience a smarter way to apply.</p>
+        `,
     },
     {
       id: 2,
       image: "/images/blog-2.jpg",
       category: "Startups",
       date: "Sep 10, 2023",
-      heading: "How Agile is Your Forecasting Process?",
+      heading: "Roles Filled by Job Jarvis in the Past Few Months",
       description:
-        "Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.",
+        "At Job Jarvis, speed and precision in recruitment are more than just buzzwords—they’re the foundation of how we operate. The moment a role goes live, our automation ensures applications reach the right recruiters within minutes. This edge has consistently translated into faster shortlists, quicker interview calls, and successful placements across some of the most innovative startups.",
       fullContent: `
-        <p>Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.</p>
+        <p>Over the past few months, we’ve helped talented professionals secure positions across engineering, product, design, marketing, and leadership roles. Here’s a look at some of the standout placements we’ve powered recently:</p>
         
-        <h3>Understanding Agile Forecasting</h3>
-        <p>Agile forecasting is more than just a buzzword—it's a fundamental shift in how businesses approach planning and prediction. Traditional forecasting methods often rely on static models that become outdated quickly in today's fast-paced business environment.</p>
-        
-        <h3>Key Principles of Agile Forecasting</h3>
+        <h3>A Track Record of Swift Placements</h3>
+       
         <ul>
-          <li><strong>Continuous Adaptation:</strong> Regular updates based on new data and market conditions</li>
-          <li><strong>Collaborative Input:</strong> Cross-functional team involvement in the forecasting process</li>
-          <li><strong>Rapid Iteration:</strong> Quick cycles of planning, execution, and review</li>
-          <li><strong>Data-Driven Decisions:</strong> Real-time analytics and insights</li>
+          <li><strong>Alga Biosciences —</strong> Regular updates based on new data and market conditions</li>
+          <li><strong>Angle Health —</strong> Cross-functional team involvement in the forecasting process</li>
+          <li><strong>Avenue —</strong> Quick cycles of planning, execution, and review</li>
+          <li><strong>Axle —</strong> Real-time analytics and insights</li>
         </ul>
       `,
-      author: "Albert Flores",
-      authorImage: "/images/author-img.jpeg",
-      authorBio:
-        "Albert Flores is a business strategy consultant specializing in agile methodologies and process optimization.",
-      readTime: "4 min read",
     },
     {
       id: 3,
@@ -412,7 +413,7 @@ export default function BlogDetail() {
               {blogPost.heading}
             </h1>
 
-            <div className="flex items-center gap-[16px]">
+            {/* <div className="flex items-center gap-[16px]">
               <img
                 src={blogPost.authorImage}
                 alt={blogPost.author}
@@ -426,7 +427,7 @@ export default function BlogDetail() {
                   {blogPost.authorBio}
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="mb-[40px] md:mb-[60px]">
