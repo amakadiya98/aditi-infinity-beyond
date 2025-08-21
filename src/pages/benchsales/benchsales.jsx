@@ -21,7 +21,7 @@ export default function BenchSales() {
       <Frame/>
       <Hiring/>
       <Subs/>
-     <div className="bg-[#1A1A1D] space-y-0"> {/* Removes all gaps between children */}
+      <div className="bg-[#1A1A1D] space-y-0"> {/* Removes all gaps between children */}
       <Peoples />
       <Footer />
     </div>

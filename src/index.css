@@ -63,7 +63,7 @@
 
 body{
     margin: 0;
-    background-color: #1A1A1D;
+    background-color: #1A1A1D !important;
 }
 
 .custom-container {
@@ -98,6 +98,41 @@ a.active hr{
   }
 }
 
+/* Blog Content */
+ .blog-content {
+          color: #cccccc;
+          line-height: 1.8;
+          font-size: 16px;
+        }
+
+        .blog-content p {
+          margin-bottom: 24px;
+          font-family: "DM Sans", sans-serif;
+        }
+
+        .blog-content h3 {
+          color: #ffffff;
+          font-family: "Bricolage Grotesque", sans-serif;
+          font-weight: 700;
+          font-size: 24px;
+          margin-top: 40px;
+          margin-bottom: 20px;
+        }
+
+        .blog-content ul {
+          margin-bottom: 24px;
+          padding-left: 24px;
+        }
+
+        .blog-content li {
+          margin-bottom: 12px;
+          font-family: "DM Sans", sans-serif;
+        }
+
+        .blog-content strong {
+          color: #ffffff;
+          font-weight: 600;
+        }
 
 @layer utilities {
   .scroller[data-animated="true"] {

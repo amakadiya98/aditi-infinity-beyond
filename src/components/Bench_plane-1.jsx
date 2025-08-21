@@ -1,26 +1,15 @@
 import React from "react";
 import { Gift, Check } from "lucide-react";
 
-export default function Subs() {
+export default function Subs1() {
   const handleButtonClick = () => {
     window.open("https://jobjarvis.infinityandbeyond.co/", "_blank");
   };
 
   const plans = [
     {
-      price: 500,
-      profiles: 10,
-      features: [
-        "Apply to 1000 jobs/M",
-        "Cover letter",
-        "AI ATS Match",
-        "Referral Emails",
-      ],
-      isPopular: true,
-    },
-    {
-      price: 5000,
-      profiles: 120,
+      price: 50,
+      profiles: 1,
       features: [
         "Apply to 1000 jobs/M",
         "Coverletter",
@@ -28,11 +17,11 @@ export default function Subs() {
         "Referral Emails",
       ],
       isPopular: false,
-    },
+    }
   ];
 
   return (
-    <div className="min-h-screen pt-20 bg-[#1A1A1D] flex flex-col items-center relative px-4 sm:px-6 lg:px-8 font-dm mb-5">
+    <div className="min-h-screen pt-20 bg-[#1A1A1D] flex flex-col items-center relative px-4 sm:px-6 lg:px-8 font-dm">
    
       <div className="text-center mb-12 max-w-4xl">
         <h1 className="font-bricolage mb-6 tracking-tight text-[36px] sm:text-[44px] lg:text-[56px] bg-gradient-to-b from-white via-neutral-200 to-neutral-400 bg-clip-text text-transparent drop-shadow-[0_2px_2px_rgba(0,0,0,0.45)]">
@@ -45,7 +34,7 @@ export default function Subs() {
       </div>
 
     
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 lg:gap-8 max-w-7xl w-full mb-5">
+      <div className="grid grid-cols-1 gap-6 lg:gap-8 max-w-7xl w-full mb-20">
         {plans.map((plan, index) => (
           <div
             key={index}
@@ -117,7 +106,7 @@ export default function Subs() {
         ))}
       </div>
 
-     
+    
     </div>
   );
 }
