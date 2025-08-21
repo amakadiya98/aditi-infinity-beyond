@@ -15,56 +15,50 @@ export default function Blog() {
     },
     {
       id: 2,
-      image: "/images/blog-2.jpg",
+      image: "/images/ai-human.jpg",
       category: "Job Jarvis",
       date: "Feb 12, 2025",
       heading: "Roles Filled by Job Jarvis in the Past Few Months",
       description:
-        "At Job Jarvis, speed and precision in recruitment are more than just buzzwords—they’re the foundation of how we operate. The moment a role goes live, our automation ensures applications reach the right recruiters within minutes. This edge has consistently translated into faster shortlists, quicker interview calls, and successful placements across some of the most innovative startups.",
-     
+          "At Job Jarvis, speed and precision in recruitment are more than just buzzwords—they’re the foundation of how we operate. The moment a role goes live, our automation ensures applications reach the right recruiters within minutes. This edge has consistently translated into faster shortlists, quicker interview calls, and successful placements across some of the most innovative startups."
     },
     {
       id: 3,
       image: "/images/blog_1.jpeg",
       category: "Avenue Marketing",
       date: "Sep 15, 2023",
-      heading:
-        " Placed Software Engineers, Solutions Engineers, Product Designers, and Growth roles",
+      heading: "The Hidden Truth About LinkedIn “Easy Apply” — And a Smarter Way to Get Noticed",
       description:
-        "Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.",
-      author: "Sarah Johnson",
-      authorImage: "/images/author-img.jpeg",
+           "When I first started applying for jobs, I loved LinkedIn’s “Easy Apply” feature. In just a few clicks, I could send out dozens of applications in minutes. It felt like a shortcut to success.But after weeks of hitting that blue button and sending out hundreds of applications, I realized something was wrong—not a single interview invite came through.So, I started asking recruiters why"
     },
     {
       id: 4,
       image: "/images/blog_1.jpeg",
       category: "Axle",
       date: "Sep 20, 2023",
-      heading: "Placed Sr. Product Engineers and Product Engineers",
+      heading: "How Job Jarvis is Transforming Job Applications: 700+ Placements in 11 Months",
       description:
-        "Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.",
-      author: "Michael Chen",
-      authorImage: "/images/author-img.jpeg",
+        "The job market is more competitive than ever. Traditional job boards are crowded, applications are repetitive, and candidates often feel lost in the noise. That’s why we built Job Jarvisan AI-powered automation that makes job hunting smarter, faster, and more effective.",
     },
-    {
+ {
       id: 5,
       image: "/images/blog_1.jpeg",
       category: "Operations",
       date: "Sep 25, 2023",
-      heading: "Streamlining Business Operations with AI",
+      heading: "Why Avoiding Crowded Job Boards Leads to Better Job Placements",
       description:
-        "Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.",
+        "For most job seekers, the default path begins with traditional job boards. It feels like the obvious choice—millions of listings, thousands of companies, and endless opportunities in one place. But here's the hidden truth: job boards are crowded, competitive, and slow. Standing out in a pool of hundreds or even thousands of applicants is nearly impossible.",
       author: "Emily Rodriguez",
       authorImage: "/images/author-img.jpeg",
     },
-    {
+  {
       id: 6,
-      image: "/images/blog_1.jpeg",
+      image: "/images/blog-6.jpg",
       category: "Belvo",
       date: "Sep 30, 2023",
-      heading: "Placed Engineering and Product Managers ",
+      heading: "Past Placements at Startups: How Job Jarvis Accelerates Careers ",
       description:
-        "Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.",
+        "At Job Jarvis, we believe speed, precision, and automation are the future of recruitment. Over the last few months, we've proudly matched incredible talent with some of the fastest-growing startups, helping candidates land roles in record time while giving companies the first-mover advantage on top talent.",
       author: "David Thompson",
       authorImage: "/images/author-img.jpeg",
     },

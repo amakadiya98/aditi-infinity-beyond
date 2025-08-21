@@ -60,23 +60,98 @@ export default function BlogDetail() {
     },
     {
       id: 2,
-      image: "/images/blog-2.jpg",
+      image: "/images/ai-human.jpg",
       category: "Startups",
       date: "Sep 10, 2023",
       heading: "Roles Filled by Job Jarvis in the Past Few Months",
       description:
-        "At Job Jarvis, speed and precision in recruitment are more than just buzzwords—they’re the foundation of how we operate. The moment a role goes live, our automation ensures applications reach the right recruiters within minutes. This edge has consistently translated into faster shortlists, quicker interview calls, and successful placements across some of the most innovative startups.",
+        "At Job Jarvis , speed and precision in recruitment are more than just buzzwords—they’re the foundation of how we operate. The moment a role goes live, our automation ensures applications reach the right recruiters within minutes. This edge has consistently translated into faster shortlists, quicker interview calls, and successful placements across some of the most innovative startups.",
       fullContent: `
-        <p>Over the past few months, we’ve helped talented professionals secure positions across engineering, product, design, marketing, and leadership roles. Here’s a look at some of the standout placements we’ve powered recently:</p>
-        
+       <p>Over the past few months, we’ve helped talented professionals secure positions across
+engineering, product, design, marketing, and leadership roles. Here’s a look at some of the
+standout placements we’ve powered recently:</p>
         <h3>A Track Record of Swift Placements</h3>
-       
-        <ul>
-          <li><strong>Alga Biosciences —</strong> Regular updates based on new data and market conditions</li>
-          <li><strong>Angle Health —</strong> Cross-functional team involvement in the forecasting process</li>
-          <li><strong>Avenue —</strong> Quick cycles of planning, execution, and review</li>
-          <li><strong>Axle —</strong> Real-time analytics and insights</li>
+        <ul class="list-disc">
+          <li><strong>Alga Biosciences</strong> — Placed Formulation Scientists and Microbiologists (caroline@alga.bio).</li>
+          <li><strong>Angle Health</strong> — Placed Backend Engineers & Data Scientists (anirban@anglehealth.com).</li>
+          <li><strong>Avenue</strong> — Placed Software Engineers, Solutions Engineers, Product Designers, and Growth roles (justin@useavenue.com).</li>
+          <li><strong>Axle</strong> — Placed Sr. Product Engineers and Product Engineers (nihar@axle.insure).</li>
+          <li><strong>Belvo</strong> — Placed Engineering and Product Managers (pablo@belvo.com).</li>
+          <li><strong>Bend</strong> — Placed Principal Software Engineer (thomas@bend.green).</li>
+          <li><strong>Biodock</strong> — Placed Senior Fullstack JS Engineer and Senior Backend/AI Engineer (michael@biodock.ai).</li>
+          <li><strong>Cambio</strong> — Placed Fullstack Engineers and Data Scientists (founders@cambio.ai).</li>
+          <li><strong>Canix</strong> — Placed Engineering roles (nicole@canix.com).</li>
+          <li><strong>CarbonChain</strong> — Placed Sales, Customer Success, Data Science, and Software Engineering roles (roheet@carbonchain.com).</li>
+          <li><strong>Chariot</strong> — Placed Founding Engineer (aaron@givechariot.com).</li>
+          <li><strong>Clipboard Health</strong>  — Placed across Product, Engineering, Sales, and Finance (recruiting@clipboardhealth.com).</li>
+          <li><strong>CollabKit</strong> — Placed Software Engineer (namit@collabkit.dev).</li>
+          <li><strong>Decentro</strong> — Placed Compliance & Nodal Officer (rohit@decentro.tech).</li>
+          <li><strong>Duffl</strong> — Placed Head of Product and UI/UX Designer (david@duffl.com).</li>
+          <li><strong>Embrace</strong> Placed Marketing, Sales, Product Managers, and Product Designers (megan@embrace.io).</li>
+          <li><strong>Emerge Tools</strong> — Placed Senior Mobile Engineer (josh@emergetools.com).</li>
+          <li><strong>Encord</strong> — Placed Full Stack Engineers (ulrik@encord.com).</li>
+          <li><strong>Epsilon3</strong> — Placed Software Engineers and Engineers in Test (max@epsilon3.io).</li>
+          <li><strong>Eventual</strong> — Placed Distributed Data Systems Founding Engineer (sammy@eventualcomputing.com).</li>
+          <li><strong>Explo</strong> — Placed Account Executive, Senior Software Engineer, and Product Manager (gary@explo.co).</li>
+          <li><strong>Fieldguide</strong> — Placed Engineering Managers, Software Engineers, and Product Managers (chris@fieldguide.io).</li>
+          <li><strong>Flock Safety</strong> — Placed Platform Engineers, Hardware Engineers, and Technical Project Managers (laura.barnes@flocksafety.com).</li>
+          <li><strong>Fractional</strong> — Placed iOS Lead, Staff Engineers, Product Engineers (carlos@fractional.app).</li>
+          <li><strong>GiveCampus</strong> — Placed Full Stack Engineer (mike@givecampus.com).</li>
+          <li><strong>HealthSherpa</strong> — Placed Software Engineering, Product, Design, Data Science, and Marketing roles (ning@healthsherpa.com).</li>
+          <li><strong>Heron Data</strong> — Placed Frontend Engineers (johannes@herondata.io).</li>
+          <li><strong>Humaans</strong> — Placed Product Designers, Engineers, Head of Engineering (giovanni@humaans.io).</li>
+          <li><strong>Humanloop</strong> — Placed Product Engineers (jordan@humanloop.com).</li>
+          <li><strong>Joy</strong> — Placed Engineering, Product, Design, Marketing, BD, and Merchandising roles (vishal@withjoy.com).</li>
+          <li><strong>Juniper Behavioral Health</strong> — Placed Product Manager and Software Engineer (christophe@juniperplatform.com).</li>
+          <li><strong>Karat Financial</strong> — Placed Growth Marketing, Accountants, and Recruiters (ashleytocco@trykarat.com).</li>
+          <li><strong>Keeper</strong> — Placed Founding Engineers (ben.stein@keeper.app).</li>
+          <li><strong>Kula</strong> — Placed Software Engineer (saaras@joinkula.io)</li>
+          <li><strong>LiveFlow</strong> — Placed Engineering, Sales, Marketing (anita@liveflow.io).</li>
+          <li><strong>Luminai</strong> — Placed Engineering, Product Managers, and Product Marketing (vikram@luminai.com).</li>
+          <li><strong>Maker AI</strong> — Placed Senior Growth Marketer and Staff Developer (naeem@maker.ai).</li>
+          <li><strong>Mashgin</strong> — Placed Senior Software Engineer (stephanie@mashgin.com).</li>
+          <li><strong>Mednet</strong>  — Placed Engineers, Sales, Scientific Analysts (samir@themednet.org).</li>
+          <li><strong>Memfault</strong>  — Placed Engineering, Sales, Customer Success (francois@memfault.com).</li>
+          <li><strong>Memora Health</strong> — Placed Engineering, Finance, Clinical Research (manav@memorahealth.com).</li>
+          <li><strong>Motion</strong> — Placed Senior Full Stack Engineer (ethan@usemotion.com).</li>
+          <li><strong>Moxion Power</strong> — Placed across Engineering, Finance, Marketing, Operations, and People (recruiting@moxionpower.com).</li>
+          <li><strong>Netomi AI</strong> — Placed Sales, Partnerships, Data Science, Product Design (puneet@netomi.com).</li>
+          <li><strong>Oklo</strong> — Placed Engineering, Finance, and BD (founders@oklo.com).</li>
+          <li><strong>OneSchema</strong> — Placed Software Engineer and Founding Demand Generation Manager (andrew@oneschema.co).</li>
+          <li><strong>OneShop</strong> — Placed Backend Engineers and Growth Engineers (albert@oneshop.com).</li>
+          <li><strong>Pasito</strong>  — Placed VP Engineering and Full Stack Engineer (pauline@joinpasito.com).</li>
+          <li><strong>PermitFlow</strong> — Placed Founding Engineer, Sales Lead, and Senior Ops Lead (francist@permitflow.com).</li>
+          <li><strong>PolicyFly</strong> — Placed Frontend, Backend, and EM Engineers (cory@policyfly.com).</li>
+          <li><strong>PowerUs</strong> — Placed Software Engineers (julian@powerus.de).</li>
+          <li><strong>Qventus</strong> — Placed Data Platform and Software Engineers (jchavez@qventus.com).</li>
+          <li><strong>ReadMe</strong> — Placed Product, Engineering, Design (greg@readme.io).</li>
+          <li><strong>Reality Defender</strong> — Placed Research Scientists, Engineers, DataOps, and Partnerships (ben@realitydefender.ai).</li>
+          <li><strong>Reframe</strong>  — Placed iOS Engineers (vedant@reframeapp.com).</li>
+          <li><strong>Resquared</strong> — Placed Sales, Customer Success, Engineering (griffin@re2.ai).</li>
+          <li><strong>Ribbon Health</strong> — Placed Enterprise Sales, Customer-Facing Engineers, and Senior Engineers (recruiting@ribbonhealth.com).</li>
+          <li><strong>Rinsed</strong>  — Placed Full Stack Engineers (nic@rinsed.co).</li>
+          <li><strong>Riot</strong>  — Placed Engineers, Account Execs, Heads of Content/Partnerships (ben@tryriot.com).</li>
+          <li><strong>Roboflow</strong>  — Placed Engineering, Sales (brad@roboflow.com).</li>
+          <li><strong>Rutter</strong>  — Placed Senior Software Engineer (eric@rutterapi.com).</li>
+          <li><strong>SafeBase</strong> — Placed Team Leaders, Principal Engineers, and Customer Success Managers (al@safebase.io).</li>
+          <li><strong>Secoda Inc</strong> — Placed across Sales, Engineering, Integrations, and Growth (etai@secoda.co).</li>
+          <li><strong>Sieve</strong>  — Placed Full Stack Engineers and ML Engineers (mokshith@sievedata.com).</li>
+          <li><strong>Skio</strong> — Placed Software Engineers (kennan@skio.com).</li>
+          <li><strong>Slope</strong>  — Placed Engineering, Data Science, and Customer Success roles (alice@slope.so).</li>
+          <li><strong>Spade</strong> — Placed Engineering Manager and Data Scientist (tess@spade.com).</li>
+          <li><strong>Stepful</strong>  — Placed Head of Growth, Community Manager, Founding Product Engineer, and Ops Associate (carl@stepful.com).</li>
+          <li><strong>Strive Math</strong> — Placed Sales, Customer Success, and Growth Interns (tamir@strivemath.com).</li>
+          <li><strong>Svix</strong>  — Placed Engineering, DevRel, and Chief of Staff (tomh@svix.com).</li>
+          <li><strong>TERRA</strong> — Placed Engineers, Ops, Designers, Growth Engineers (kyriakos@tryterra.co).</li>
+          <li><strong>Text Blaze</strong> — Placed Account Exec, Head of Marketing, Full Stack Engineer (dan@blaze.today).</li>
+          <li><strong>Two Dots</strong> — Placed Software Engineer (max@twodots.net).</li>
+          <li><strong>Vanta</strong> — Placed Engineering, Design, and Sales roles (christina@vanta.com).</li>
         </ul>
+
+            <h3>The Job Jarvis Advantage</h3>
+            <p>What makes these wins possible is our ability to act faster than traditional recruitment workflows. By automating the application process, candidates supported by Job Jarvis don’t just get noticed—they often land in the recruiter’s inbox before anyone else.</p>
+             <p>For companies, this means top-tier candidates are available sooner. For job seekers, it means greater chances of being shortlisted and ultimately placed.</p>
+             <p>At Job Jarvis, we’re proving every day that the future of recruitment isn’t just about finding talent—it’s about finding it faster.</p>
       `,
     },
     {
@@ -84,112 +159,200 @@ export default function BlogDetail() {
       image: "/images/blog_1.jpeg",
       category: "Marketing",
       date: "Sep 15, 2023",
-      heading: "The Future of Digital Marketing in 2024",
+      heading: "The Hidden Truth About LinkedIn “Easy Apply” — And a Smarter Way to Get Noticed",
       description:
-        "Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.",
+        "When I first started applying for jobs, I loved LinkedIn’s “Easy Apply” feature. In just a few clicks, I could send out dozens of applications in minutes. It felt like a shortcut to success.But after weeks of hitting that blue button and sending out hundreds of applications, I realized something was wrong—not a single interview invite came through.So, I started asking recruiters why",
       fullContent: `
-        <p>Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.</p>
-        
-        <h3>The Evolution of Digital Marketing</h3>
-        <p>Digital marketing continues to evolve at an unprecedented pace, driven by technological advancements and changing consumer behaviors. As we approach 2024, several key trends are reshaping the landscape.</p>
-        
-        <h3>Key Trends for 2024</h3>
-        <ul>
-          <li><strong>AI-Powered Personalization:</strong> Advanced algorithms delivering hyper-personalized experiences</li>
-          <li><strong>Voice Search Optimization:</strong> Growing importance of voice-activated search and smart speakers</li>
-          <li><strong>Video-First Content:</strong> Short-form video dominating social media platforms</li>
-          <li><strong>Privacy-First Marketing:</strong> Adapting to new data protection regulations</li>
+      
+        <h3>What Recruiters Told Me About Easy Apply</h3>
+       <p>It turns out, the <strong>“Easy Apply” convenience comes at a cost.</strong></p>
+        <ul class="list-disc">
+          <li><strong>Low Priority Applications:</strong> Many recruiters admit that Easy Apply submissions often get less attention than applications submitted through official career portals.</li>
+          <li><strong>Bypassed Systems:</strong> Easy Apply doesn’t always integrate into a company’s main applicant tracking system (ATS). Instead, your resume may sit in a secondary list recruiters rarely check.</li>
+          <li><strong>Missing Information:</strong> Easy Apply skips fields that companies actually want—making your application incomplete compared to someone who applied directly.</li>
+          <li><strong>High Competition:</strong> Since it’s easy, everyone uses it. Recruiters are flooded with hundreds of generic applications, making it harder for anyone to stand out.</li>
         </ul>
+            <p>The truth? Easy Apply feels productive but often leads to  <strong> hidden rejection piles.</strong></p> 
+
+            <h3>Why This Matters for Job Seekers</h3>
+            <p>Most candidates think volume is the key—“If I apply to 100 jobs, one will work.” But if 90% of those applications are lost in low-priority channels, the volume doesn’t matter.</p>
+             <p>This creates two big problems for job seekers:</p>
+             <ul class="list-decimal">
+              <li><strong> Wasted Time:</strong> Hours spent applying don’t translate into results.</li>
+               <li><strong> Missed Opportunities:</strong> Jobs that could have been a perfect fit slip through the cracks.</li>
+             </ul>
+
+             <h3>How a Job Application Agent Changes the Game</h3>
+             <p>This is where tools like <strong>Job Jarvis</strong> make a real difference. Unlike Easy Apply, a job application
+         agent:</p>
+     <ul class="list-disc">
+          <li><strong>Applies directly on company portals</strong> so your resume enters the official ATS.</li>
+          <li><strong>Fills out the full application</strong> (not just the short Easy Apply form), making you a complete candidate.</li>
+          <li><strong>Targets the right jobs</strong>  by analyzing your skills, resume, and fit.</li>
+          <li><strong>Covers more than job boards</strong>—including startups and seed-funded companies wherecompetition is lower.</li>
+          <li><strong>Tracks application progress</strong> by monitoring your email for updates, so you never miss recruiter responses.</li>
+        </ul>
+        <p>Instead of feeling like your efforts disappear into a void, automation ensures your applications are <strong>seen, processed, and prioritized.</strong></p>
+
+        <h3>The Smarter Path Forward</h3>
+        <p>LinkedIn Easy Apply isn’t useless—but relying on it alone can stall your job search. To stand out in today’s hiring market, you need a system that:</p>
+         <ul class="list-disc">
+          <li>Gets your application into the <strong> right channels</strong> </li>
+          <li>Maximizes visibility with recruiters</li>
+          <li>Scales your efforts without wasting time</li>
+        </ul>
+        <p>That’s exactly what a job application agent provides.</p>
+
+        <h3>Final Takeaway</h3>
+        <p>“Easy” doesn’t always mean “effective.” While Easy Apply feels convenient, it often leaves candidates stuck in a cycle of silence. A smarter, more targeted approach not only increases your chances of landing interviews but also saves you from endless frustration.</p>
+        <p><strong>👉 Ready to stop applying blindly? Try Job Jarvis today and put your applications where they truly count.</strong></p>
       `,
-      author: "Sarah Johnson",
-      authorImage: "/images/author-img.jpeg",
-      authorBio:
-        "Sarah Johnson is a digital marketing strategist with expertise in emerging technologies and consumer behavior.",
-      readTime: "6 min read",
     },
     {
       id: 4,
       image: "/images/blog_1.jpeg",
       category: "Sales",
       date: "Sep 20, 2023",
-      heading: "Building High-Performance Sales Teams",
+      heading: "How Job Jarvis is Transforming Job Applications: 700+ Placements in 11 Months",
       description:
-        "Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.",
+        "The job market is more competitive than ever. Traditional job boards are crowded, applications are repetitive, and candidates often feel lost in the noise. That’s why we built Job Jarvisan AI-powered automation that makes job hunting smarter, faster, and more effective.",
       fullContent: `
-        <p>Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.</p>
+        <p>And the results speak for themselves: in just the past <strong>11 months, Job Jarvis has helped over 700 people land jobs.</strong></p>
         
-        <h3>Foundations of High-Performance Sales</h3>
-        <p>Building a high-performance sales team requires more than just hiring talented individuals. It involves creating the right culture, processes, and support systems that enable sales professionals to excel consistently.</p>
+        <h3>Going Beyond Crowded Job Boards</h3>
+        <p>Most job seekers rely only on well-known job boards, where thousands of applicants compete
+        for the same role. The chances of standing out are slim, and opportunities are often delayed.</p>
+        <p><strong>Job Jarvis goes further.</strong> Not only does it apply on job boards, but it also targets <strong>new-age,
+        seed-funded companies—businesses</strong> that are actively hiring, moving fast, and offering quicker
+        placement opportunities. This gives our users an advantage that others simply don’t have.
+        </p>
         
-        <h3>Essential Components</h3>
+        <h3>Why Candidates Choose Job Jarvis</h3>
         <ul>
-          <li><strong>Clear Sales Process:</strong> Well-defined methodologies and workflows</li>
-          <li><strong>Continuous Training:</strong> Ongoing skill development and knowledge sharing</li>
-          <li><strong>Performance Metrics:</strong> Clear KPIs and regular performance reviews</li>
-          <li><strong>Technology Stack:</strong> Modern tools and CRM systems</li>
+          <li><strong>Speed:</strong> Applications go out instantly, getting candidates noticed faster.</li>
+          <li><strong>Relevance:</strong> Smart matching ensures jobs truly fit skills and experience.</li>
+          <li><strong>More Opportunities:</strong> Covering both job boards and emerging companies increases chances dramatically.</li>
+          <li><strong>Results That Count:</strong> Over 700 successful placements prove that automation works.</li>
         </ul>
+            <h3>Why It Works</h3>
+        <p>The edge lies in <strong>removing delays and maximizing reach.</strong> Every day spent applying manually
+        is a missed opportunity. With Job Jarvis, candidates are among the first in the recruiter’s inbox,
+        increasing their visibility and interview calls.
+        </p>
+    <h3>The Future of Job Applications</h3>
+        <p>Automation is no longer a “nice to have”—it’s becoming the standard. Candidates who adopt
+      tools like Job Jarvis aren’t just saving time; they’re gaining a competitive advantage.
+      Businesses, in turn, connect with better-fit candidates faster, making hiring more efficient.
+      </p>
+    <h3>Ready to Experience It?</h3>
+        <p>With <strong>700+ success stories in 11 months,</strong> Job Jarvis is already proving its impact. Whether
+        you’re tired of crowded job boards or want faster access to real opportunities, now is the time to
+        act.
+        </p>
+        <p>👉 <strong>Sign up with Job Jarvis today</strong> and experience a smarter, faster, and more effective way to
+        land your next role.
+        </p>
       `,
-      author: "Michael Chen",
-      authorImage: "/images/author-img.jpeg",
-      authorBio:
-        "Michael Chen is a sales performance consultant with 15+ years of experience in B2B sales optimization.",
-      readTime: "7 min read",
     },
     {
       id: 5,
       image: "/images/blog_1.jpeg",
       category: "Operations",
       date: "Sep 25, 2023",
-      heading: "Streamlining Business Operations with AI",
+      heading: "Why Avoiding Crowded Job Boards Leads to Better Job Placements",
       description:
-        "Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.",
+        "For most job seekers, the default path begins with traditional job boards. It feels like the obvious choice—millions of listings, thousands of companies, and endless opportunities in one place. But here's the hidden truth: job boards are crowded, competitive, and slow. Standing out in a pool of hundreds or even thousands of applicants is nearly impossible.",
       fullContent: `
-        <p>Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.</p>
+        <p>That's why shifting focus away from job boards has become one of the most impactful strategies in modern job hunting.</p>
         
-        <h3>The AI Revolution in Operations</h3>
-        <p>Artificial Intelligence is transforming how businesses operate, from automating routine tasks to providing intelligent insights that drive strategic decision-making.</p>
+        <h3>The Problem with Job Boards</h3>
+        <p>Job boards have become the online equivalent of crowded marketplaces. Everyone is
+         competing for attention, and companies are buried under waves of applications. For candidates,
+         this means:</p>
+         <ul>
+         <li> Applications get lost in the crowd.</li>
+         <li>Recruiters take longer to respond.</li>
+         <li>Great opportunities are delayed or missed altogether.</li>
+         </ul>
+         <p>In short, traditional job boards are no longer the fastest way to secure interviews.</p>
         
-        <h3>Key Areas of Impact</h3>
+        <h3>The Power of Targeting Startups</h3>
+        <p>Instead of competing on crowded platforms, a smarter approach is to target <strong>startups and
+         seed-funded companies</strong>. These businesses are growing rapidly, they're actively hiring, and
+         they move faster in their decision-making.</p>
+         <p>By focusing on startups, job seekers gain several advantages:</p>
         <ul>
-          <li><strong>Process Automation:</strong> Reducing manual work and human error</li>
-          <li><strong>Predictive Analytics:</strong> Forecasting demand and optimizing resources</li>
-          <li><strong>Quality Control:</strong> AI-powered monitoring and defect detection</li>
-          <li><strong>Supply Chain Optimization:</strong> Intelligent inventory and logistics management</li>
+          <li><strong>Less Competition:</strong> Fewer applicants compared to mainstream job boards.</li>
+          <li><strong>Faster Hiring Cycles: </strong>Startups often hire quickly to meet urgent needs.</li>
+          <li><strong>More Opportunities:</strong>Emerging companies create roles that don't always appear on job boards.</li>
+          <li><strong>Direct Access:</strong> Applicants often connect more closely with founders, hiring managers,
+          or small HR teams.</li>
         </ul>
+        <p>This direct and agile hiring process creates better chances for candidates to land the right role.</p>
+        <h3>How This Strategy Changes Outcomes</h3>
+        <p>The difference is clear: instead of chasing opportunities where everyone else is applying,
+        candidates who focus on startups step into spaces where <strong>their applications are seen, valued,
+        and acted upon faster.</strong></p>
+        <p>It's not just about applying more—it's about applying smarter. And by targeting companies that
+        are actively building and expanding, candidates align themselves with organizations that are
+        eager to bring new talent onboard.
+        </p>
+        <h3>Looking Ahead</h3>
+        <p>The future of hiring won't be decided by crowded job boards alone. It will be shaped by
+        candidates and companies willing to think differently, move faster, and create more meaningful
+        connections.</p>
+        <p>For job seekers, the takeaway is simple:<strong> step away from the crowd, and step into
+        growth-driven companies where opportunities are real, timely, and within reach.</strong></p>
       `,
-      author: "Emily Rodriguez",
-      authorImage: "/images/author-img.jpeg",
-      authorBio:
-        "Emily Rodriguez specializes in operational efficiency and AI implementation strategies.",
-      readTime: "5 min read",
+
     },
     {
       id: 6,
-      image: "/images/blog_1.jpeg",
+      image: "/images/blog-6.jpg",
       category: "Human Resources",
       date: "Sep 30, 2023",
-      heading: "Modern HR Strategies for Remote Teams",
+      heading: "Past Placements at Startups: How Job Jarvis Accelerates Careers",
       description:
-        "Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.",
+        "At Job Jarvis, we believe speed, precision, and automation are the future of recruitment. Over the last few months, we've proudly matched incredible talent with some of the fastest-growing startups, helping candidates land roles in record time while giving companies the first-mover advantage on top talent.",
       fullContent: `
-        <p>Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.</p>
+        <p>Below is a snapshot of where our candidates have recently secured opportunities:</p>
         
-        <h3>Adapting HR for the Remote Era</h3>
-        <p>The shift to remote work has fundamentally changed how HR professionals approach talent management, employee engagement, and organizational culture.</p>
+        <h3>🚀 Highlighted Placements</h3>
         
-        <h3>Critical Strategies</h3>
         <ul>
-          <li><strong>Virtual Onboarding:</strong> Creating engaging remote employee experiences</li>
-          <li><strong>Digital Culture Building:</strong> Maintaining company culture across distances</li>
-          <li><strong>Remote Performance Management:</strong> New approaches to evaluation and feedback</li>
-          <li><strong>Mental Health Support:</strong> Addressing isolation and work-life balance</li>
+          <li><strong>Alga Biosciences —</strong> Formulation Scientist, Microbiologist (Contact: caroline@alga.bio)</li>
+          <li><strong>Angle Health —</strong> Backend Engineers & Data Scientists (Contact: anirban@anglehealth.com)</li>
+          <li><strong>Avenue —</strong> Software Engineer, Solutions Engineer, Growth, Product Design (Contact: justin@useavenue.com)</li>
+          <li><strong>Axle —</strong>Sr. Product Engineer, Product Engineer(Contact: nihar@axle.insure)</li>
+          <li><strong>Belvo —</strong>Engineering, Product Managers(Contact: pablo@belvo.com)</li>
+          <li><strong>Bend —</strong>Principal Software Engineer(Contact: thomas@bend.green)</li>
+          <li><strong>Biodock —</strong>Senior Fullstack JS Engineer, Senior Backend/AI Engineer(Contact: michael@biodock.ai)</li>
+          <li><strong>Cambio —</strong>Fullstack Software Engineer, Data Scientist(Contact: : founders@cambio.ai)</li>
+          <li><strong>Canix —</strong>Engineering(Contact: nicole@canix.com)</li>
+          <li><strong>CarbonChain —</strong>Sales, Customer Success, Data Science, Software Engineering(Contact: roheet@carbonchain.com)</li>
+          <li><strong>Chariot —</strong>Founding Engineer(Contact: aaron@givechariot.com)</li>
+          <li><strong>Clipboard Health —</strong>Engineering Roles(Contact: weihan@clipboardhealth.com)</li>
+          <li><strong>CoLoop —</strong>Senior Fullstack Engineer(Contact: jason@coloop.ai)</li>
+          <li><strong>Curri —</strong>Software Engineer(Contact: matt@curri.com)</li>
+          <li><strong>Dock —</strong>Frontend Engineer, Fullstack Engineer(Contact: alex@dock.us)</li>
+          <li><strong>Eppo —</strong>Software Engineer, Infrastructure Engineer(Contact: chetan@geteppo.com)</li>
+          <li><strong>Encord —</strong>Software Engineer, Machine Learning Engineer(Contact: eric@encord.com)</li>
+          <li><strong>Federato —</strong>Fullstack Engineer(Contact: will@federato.ai)          </li>
+          <li><strong>Finch —</strong>Backend Engineer, Fullstack Engineer(Contact: jeremiah@tryfinch.com)</li>
+          <li><strong>Fynn —</strong>Data Engineer, Analytics Engineer(Contact: cole@fynncredit.com)</li>
         </ul>
+        <p>(and many more across our growing startup placement list)></p>
+
+        <h3>💡 Why This Matters</h3>
+        <p>What sets Job Jarvis apart is our automation-first recruitment engine. The moment a role
+         goes live, our system matches candidates instantly, auto-fills applications, and ensures they are
+         among the first to reach hiring teams</p>
+         <p>For startups, this means critical roles get filled faster. For candidates, it means better odds
+         of landing interviews—before the competition even hits "Apply."
+         </p>
+         <p>✨ At Job Jarvis, we're proving that with the right blend of automation and human insight, the
+         hiring process doesn't need to drag on for weeks. Roles can be filled within hours of going live.</p>
       `,
-      author: "David Thompson",
-      authorImage: "/images/author-img.jpeg",
-      authorBio:
-        "David Thompson is an HR consultant focused on remote work strategies and employee experience.",
-      readTime: "6 min read",
     },
     {
       id: 7,
