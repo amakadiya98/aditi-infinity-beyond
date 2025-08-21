@@ -185,7 +185,7 @@ export default function Blog() {
                         {post.description}
                       </p>
                     </div>
-                    <div className="flex items-center gap-[12px]">
+                    {/* <div className="flex items-center gap-[12px]">
                       <img
                         src={post.authorImage}
                         alt={post.author}
@@ -194,7 +194,7 @@ export default function Blog() {
                       <span className="font-dm font-medium text-[#FFFFFF] text-[14px] md:text-[16px]">
                         {post.author}
                       </span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </article>
