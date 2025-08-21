@@ -1,5 +1,7 @@
+
+import Footer from '../../components/footer';
 export default function About() {
-  return (
+  return (<>
     <div className="max-w-[1920px] w-full bg-[#1A1A1D] 2xl:mt-[260px] xl:mt-[200px] md:mt-[100px] sm:mt-[60px] mt-[30px]">
       {/* banner section */}
       <div className="text-center px-4">
@@ -183,6 +185,8 @@ export default function About() {
       </div>
       </section>
     </div>
+      <Footer />
+      </>
   )
 }
 

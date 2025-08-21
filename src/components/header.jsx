@@ -21,26 +21,30 @@ export default function Header() {
 
           <div className="hidden xl:flex items-center space-x-[24px]">
              <a 
+            href="/" 
+            className="px-[24px] py-[10px] bg-[#1A1A1D] border border-[#555555] rounded-full text-[#FFFFFF] font-medium text-lg hover:bg-[#333333] hover:border-[#777777] transition-all duration-300 shadow-[0_4px_12px_rgba(0,0,0,0.3)]"
+          >
+           Home
+          </a>
+             <a 
             href="/about" 
             className="px-[24px] py-[10px] bg-[#1A1A1D] border border-[#555555] rounded-full text-[#FFFFFF] font-medium text-lg hover:bg-[#333333] hover:border-[#777777] transition-all duration-300 shadow-[0_4px_12px_rgba(0,0,0,0.3)]"
           >
             About
           </a>
-           <a 
-            href="/benchsales" 
-            className="px-[24px] py-[10px] bg-[#1A1A1D] border border-[#555555] rounded-full text-[#FFFFFF] font-medium text-lg hover:bg-[#333333] hover:border-[#777777] transition-all duration-300 shadow-[0_4px_12px_rgba(0,0,0,0.3)]"
-          >
-            Bench Sales
-          </a>
+           
           <a 
             href="/blog" 
             className="px-[24px] py-[10px] bg-[#1A1A1D] border border-[#555555] rounded-full text-[#FFFFFF] font-medium text-lg hover:bg-[#333333] hover:border-[#777777] transition-all duration-300 shadow-[0_4px_12px_rgba(0,0,0,0.3)]"
           >
             Blog
           </a>
-            <button className="px-[24px] py-[10px] bg-[#1A1A1D] border border-[#555555] rounded-full text-[#FFFFFF] font-medium text-lg hover:bg-[#333333] hover:border-[#777777] transition-all duration-300 shadow-[0_4px_12px_rgba(0,0,0,0.3)]">
-              Job Jarvis
-            </button>
+           <a 
+            href="/jobjarvis" 
+            className="px-[24px] py-[10px] bg-[#1A1A1D] border border-[#555555] rounded-full text-[#FFFFFF] font-medium text-lg hover:bg-[#333333] hover:border-[#777777] transition-all duration-300 shadow-[0_4px_12px_rgba(0,0,0,0.3)]"
+          >
+            Job Jarvis
+          </a>
           </div>
 
           <div className="xl:hidden">

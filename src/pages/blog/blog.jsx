@@ -1,13 +1,12 @@
 import { useNavigate } from "react-router-dom";
-
+import Footer from '../../components/footer';
 export default function Blog() {
   const navigate = useNavigate();
 
   const blogPosts = [
     {
       id: 1,
-      image: "/images/blog-1.jpg",
-      category: "Job Jarvis",
+      image: "/images/blog_1.jpg",
       date: "Sep 10, 2024",
       heading: "The Business Impact of Job Jarvis: Automating Job Applications ",
       description:
@@ -15,8 +14,7 @@ export default function Blog() {
     },
     {
       id: 2,
-      image: "/images/ai-human.jpg",
-      category: "Job Jarvis",
+      image: "/images/blog_2.jpg",
       date: "Feb 12, 2025",
       heading: "Roles Filled by Job Jarvis in the Past Few Months",
       description:
@@ -24,27 +22,24 @@ export default function Blog() {
     },
     {
       id: 3,
-      image: "/images/blog_1.jpeg",
-      category: "Avenue Marketing",
-      date: "Sep 15, 2023",
+      image: "/images/blog_3.jpg",
+      date: "March 12, 2025",
       heading: "The Hidden Truth About LinkedIn “Easy Apply” — And a Smarter Way to Get Noticed",
       description:
            "When I first started applying for jobs, I loved LinkedIn’s “Easy Apply” feature. In just a few clicks, I could send out dozens of applications in minutes. It felt like a shortcut to success.But after weeks of hitting that blue button and sending out hundreds of applications, I realized something was wrong—not a single interview invite came through.So, I started asking recruiters why"
     },
     {
       id: 4,
-      image: "/images/blog_1.jpeg",
-      category: "Axle",
-      date: "Sep 20, 2023",
+      image: "/images/blog_4.jpg",
+    date: "May 12, 2025",
       heading: "How Job Jarvis is Transforming Job Applications: 700+ Placements in 11 Months",
       description:
         "The job market is more competitive than ever. Traditional job boards are crowded, applications are repetitive, and candidates often feel lost in the noise. That’s why we built Job Jarvisan AI-powered automation that makes job hunting smarter, faster, and more effective.",
     },
  {
       id: 5,
-      image: "/images/blog_1.jpeg",
-      category: "Operations",
-      date: "Sep 25, 2023",
+      image: "/images/blog_5.jpg",
+      date: "July 12, 2025",
       heading: "Why Avoiding Crowded Job Boards Leads to Better Job Placements",
       description:
         "For most job seekers, the default path begins with traditional job boards. It feels like the obvious choice—millions of listings, thousands of companies, and endless opportunities in one place. But here's the hidden truth: job boards are crowded, competitive, and slow. Standing out in a pool of hundreds or even thousands of applicants is nearly impossible.",
@@ -53,9 +48,8 @@ export default function Blog() {
     },
   {
       id: 6,
-      image: "/images/blog-6.jpg",
-      category: "Belvo",
-      date: "Sep 30, 2023",
+      image: "/images/blog_6.png",
+     date: "August 12, 2025",
       heading: "Past Placements at Startups: How Job Jarvis Accelerates Careers ",
       description:
         "At Job Jarvis, we believe speed, precision, and automation are the future of recruitment. Over the last few months, we've proudly matched incredible talent with some of the fastest-growing startups, helping candidates land roles in record time while giving companies the first-mover advantage on top talent.",
@@ -65,8 +59,7 @@ export default function Blog() {
     // {
     //   id: 7,
     //   image: "/images/blog_1.jpeg",
-    //   category: "Bend",
-    //   date: "Oct 5, 2023",
+    //     date: "Oct 5, 2023",
     //   heading: "APlaced Principal Software Engineer",
     //   description:
     //     "Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.",
@@ -76,8 +69,7 @@ export default function Blog() {
     // {
     //   id: 8,
     //   image: "/images/blog_1.jpeg",
-    //   category: "Biodock",
-    //   date: "Oct 10, 2023",
+    //     date: "Oct 10, 2023",
     //   heading:
     //     "Placed Senior Fullstack JS Engineer and Senior Backend/AI Engineer ",
     //   description:
@@ -88,8 +80,7 @@ export default function Blog() {
     // {
     //   id: 9,
     //   image: "/images/blog_1.jpeg",
-    //   category: "Cambio",
-    //   date: "Oct 15, 2023",
+    //  date: "Oct 15, 2023",
     //   heading: "Placed Fullstack Engineers and Data Scientists",
     //   description:
     //     "Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.",
@@ -99,7 +90,6 @@ export default function Blog() {
     // {
     //   id: 10,
     //   image: "/images/blog_1.jpeg",
-    //   category: "Canix",
     //   date: "Oct 20, 2023",
     //   heading: "Placed Engineering roles",
     //   description:
@@ -110,7 +100,7 @@ export default function Blog() {
     // {
     //   id: 11,
     //   image: "/images/blog_1.jpeg",
-    //   category: "CarbonChain",
+    //  
     //   date: "Oct 25, 2023",
     //   heading:
     //     "Placed Sales, Customer Success, Data Science, and Software Engineering roles",
@@ -122,8 +112,7 @@ export default function Blog() {
     // {
     //   id: 12,
     //   image: "/images/blog_1.jpeg",
-    //   category: "Chariot",
-    //   date: "Oct 30, 2023",
+    //   //   date: "Oct 30, 2023",
     //   heading: "Placed Founding Engineer",
     //   description:
     //     "Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.",
@@ -156,16 +145,13 @@ export default function Blog() {
                     <img
                       src={post.image}
                       alt={post.heading}
-                      className="w-full aspect-[4/3] lg:aspect-[5/4] object-cover"
+                      className="w-full aspect-[4/3] lg:aspect-[5/4]"
                     />
                   </div>
 
                   <div className="lg:w-[60%] w-full p-[20px] lg:p-[24px] flex flex-col justify-between">
                     <div>
                       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-[12px] mb-[16px]">
-                        <span className="inline-block bg-[#333333] text-[#FFFFFF] text-[12px] font-medium px-[10px] py-[4px] rounded-full w-fit border border-[#555555]">
-                          {post.category}
-                        </span>
                         <span className="text-[#CCCCCC] text-[14px]">
                           {post.date}
                         </span>
@@ -196,6 +182,7 @@ export default function Blog() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

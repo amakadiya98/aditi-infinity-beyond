@@ -55,14 +55,6 @@ export default function Subs() {
                 : "border-gray-700 hover:border-gray-600"
             }`}
           >
-          
-            <div className="inline-block mb-6">
-              <span className="font-dm bg-white text-[#8f1a16] px-3 py-1 rounded-md text-[12px] font-medium shadow-sm">
-                Single User
-              </span>
-            </div>
-
-        
             <div className="mb-6 sm:mb-8">
               <div className="flex items-baseline text-white">
                 <span className="font-bricolage text-[22px] sm:text-[26px]">

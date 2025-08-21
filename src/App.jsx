@@ -14,12 +14,14 @@ import Founders from "./pages/founders/founders";
 import Solopreneurs from "./pages/solopreneurs/solopreneurs";
 import Management from "./pages/management/management";
 import Header from "./components/header";
-import BenchSales from "./pages/benchsales/benchsales";
+import Jobjarvis from "./pages/jobjarvis/jobjarvis";
+import Jobjarvis1 from "./pages/jobjarvis-1/jobjarvis";
+import Jobjarvis3 from "./pages/jobjarvis-3/jobjarvis";
+import Footer from "./components/footer"
 import Blog from "./pages/blog/blog";
 import BlogDetail from "./pages/blog/BlogDetail";
 import "./App.css";
-import BenchSales1 from "./pages/benchsales-1/benchsales";
-import BenchSales3 from "./pages/benchsales-3/benchsales";
+
 export default function App() {
   return (
     <Router>
@@ -28,9 +30,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/benchsales" element={<BenchSales />} />
-          <Route path="/benchsales-1" element={<BenchSales1 />} />
-          <Route path="/benchsales-3" element={<BenchSales3 />} />
+          <Route path="/jobjarvis" element={<Jobjarvis />} />
+          <Route path="/jobjarvis-1" element={<Jobjarvis1 />} />
+          <Route path="/jobjarvis-3" element={<Jobjarvis3 />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogDetail />} />
           <Route path="/human-resources" element={<HumanResources />} />

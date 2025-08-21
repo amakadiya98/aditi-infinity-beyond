@@ -9,8 +9,7 @@ export default function BlogDetail() {
   const blogPosts = [
     {
       id: 1,
-      image: "/images/blog-1.jpg",
-      category: "Job Jarvis",
+      image: "/images/blog_1.jpg",
       date: "Sep 10, 2024",
       heading: "The Business Impact of Job Jarvis: Automating Job Applications",
       description:
@@ -60,9 +59,8 @@ export default function BlogDetail() {
     },
     {
       id: 2,
-      image: "/images/ai-human.jpg",
-      category: "Startups",
-      date: "Sep 10, 2023",
+      image: "/images/blog_2.jpg",
+      date: "Feb 12, 2025",
       heading: "Roles Filled by Job Jarvis in the Past Few Months",
       description:
         "At Job Jarvis , speed and precision in recruitment are more than just buzzwords—they’re the foundation of how we operate. The moment a role goes live, our automation ensures applications reach the right recruiters within minutes. This edge has consistently translated into faster shortlists, quicker interview calls, and successful placements across some of the most innovative startups.",
@@ -156,9 +154,8 @@ standout placements we’ve powered recently:</p>
     },
     {
       id: 3,
-      image: "/images/blog_1.jpeg",
-      category: "Marketing",
-      date: "Sep 15, 2023",
+          image: "/images/blog_3.jpg",
+      date: "March 12, 2025",
       heading: "The Hidden Truth About LinkedIn “Easy Apply” — And a Smarter Way to Get Noticed",
       description:
         "When I first started applying for jobs, I loved LinkedIn’s “Easy Apply” feature. In just a few clicks, I could send out dozens of applications in minutes. It felt like a shortcut to success.But after weeks of hitting that blue button and sending out hundreds of applications, I realized something was wrong—not a single interview invite came through.So, I started asking recruiters why",
@@ -210,9 +207,8 @@ standout placements we’ve powered recently:</p>
     },
     {
       id: 4,
-      image: "/images/blog_1.jpeg",
-      category: "Sales",
-      date: "Sep 20, 2023",
+      image: "/images/blog_4.jpg",
+     date: "May 12, 2025",
       heading: "How Job Jarvis is Transforming Job Applications: 700+ Placements in 11 Months",
       description:
         "The job market is more competitive than ever. Traditional job boards are crowded, applications are repetitive, and candidates often feel lost in the noise. That’s why we built Job Jarvisan AI-powered automation that makes job hunting smarter, faster, and more effective.",
@@ -256,9 +252,8 @@ standout placements we’ve powered recently:</p>
     },
     {
       id: 5,
-      image: "/images/blog_1.jpeg",
-      category: "Operations",
-      date: "Sep 25, 2023",
+      image: "/images/blog_5.jpg",
+      date: "July 12, 2025",
       heading: "Why Avoiding Crowded Job Boards Leads to Better Job Placements",
       description:
         "For most job seekers, the default path begins with traditional job boards. It feels like the obvious choice—millions of listings, thousands of companies, and endless opportunities in one place. But here's the hidden truth: job boards are crowded, competitive, and slow. Standing out in a pool of hundreds or even thousands of applicants is nearly impossible.",
@@ -308,9 +303,8 @@ standout placements we’ve powered recently:</p>
     },
     {
       id: 6,
-      image: "/images/blog-6.jpg",
-      category: "Human Resources",
-      date: "Sep 30, 2023",
+     image: "/images/blog_6.png",
+      date: "August 12, 2025",
       heading: "Past Placements at Startups: How Job Jarvis Accelerates Careers",
       description:
         "At Job Jarvis, we believe speed, precision, and automation are the future of recruitment. Over the last few months, we've proudly matched incredible talent with some of the fastest-growing startups, helping candidates land roles in record time while giving companies the first-mover advantage on top talent.",
@@ -357,7 +351,7 @@ standout placements we’ve powered recently:</p>
     {
       id: 7,
       image: "/images/blog_1.jpeg",
-      category: "Recruitment",
+     
       date: "Oct 5, 2023",
       heading: "AI-Powered Recruitment: The New Standard",
       description:
@@ -385,7 +379,7 @@ standout placements we’ve powered recently:</p>
     {
       id: 8,
       image: "/images/blog_1.jpeg",
-      category: "Management",
+
       date: "Oct 10, 2023",
       heading: "Leadership Skills for the Digital Age",
       description:
@@ -413,7 +407,7 @@ standout placements we’ve powered recently:</p>
     {
       id: 9,
       image: "/images/blog_1.jpeg",
-      category: "Positioning",
+      
       date: "Oct 15, 2023",
       heading: "Brand Positioning in Competitive Markets",
       description:
@@ -441,7 +435,7 @@ standout placements we’ve powered recently:</p>
     {
       id: 10,
       image: "/images/blog_1.jpeg",
-      category: "Accounting",
+    
       date: "Oct 20, 2023",
       heading: "Financial Automation for Small Businesses",
       description:
@@ -469,7 +463,7 @@ standout placements we’ve powered recently:</p>
     {
       id: 11,
       image: "/images/blog_1.jpeg",
-      category: "Customer Support",
+   
       date: "Oct 25, 2023",
       heading: "Building Exceptional Customer Experiences",
       description:
@@ -497,7 +491,7 @@ standout placements we’ve powered recently:</p>
     {
       id: 12,
       image: "/images/blog_1.jpeg",
-      category: "R&D",
+     
       date: "Oct 30, 2023",
       heading: "Innovation Strategies for Product Development",
       description:
@@ -561,9 +555,6 @@ standout placements we’ve powered recently:</p>
 
           <div className="mb-[40px] md:mb-[60px]">
             <div className="flex sm:flex-row sm:items-center gap-[16px] mb-[24px]">
-              <span className="inline-block bg-[#333333] text-[#FFFFFF] text-[14px] font-medium px-[12px] py-[6px] rounded-full w-fit border border-[#555555]">
-                {blogPost.category}
-              </span>
               <span className="text-[#CCCCCC] text-[16px]">
                 {blogPost.date}
               </span>
@@ -597,7 +588,7 @@ standout placements we’ve powered recently:</p>
             <img
               src={blogPost.image}
               alt={blogPost.heading}
-              className="w-full h-[250px] md:h-[300px] lg:h-[450px] object-cover rounded-[16px] border border-[#333333] object-center"
+              className="w-full h-[250px] md:h-[300px] lg:h-[450px] rounded-[16px]  object-contain"
             />
           </div>
 

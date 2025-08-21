@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from '../../components/footer';
 export default function Home() {
 
     const categories = [
@@ -135,6 +136,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+             <Footer />
         </>
     )
 }
