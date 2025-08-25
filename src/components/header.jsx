@@ -67,32 +67,12 @@ export default function Header() {
         <div className="absolute left-0 right-0 w-full bg-[#0F0F0F] py-6 border-t border-[#333333] shadow-lg z-40 xl:hidden">
           <div className="custom-container">
             <div className="flex flex-col items-center space-y-4">
-             
-          <a 
-            href="/" 
-            className="w-full max-w-[280px] text-center px-[24px] py-[10px] bg-[#1A1A1D] border border-[#555555] rounded-full text-[#FFFFFF] font-medium text-lg hover:bg-[#333333] hover:border-[#777777] transition-all duration-300 shadow-[0_4px_12px_rgba(0,0,0,0.3)]"
-          >
-           Home
-          </a>
-             <a 
-            href="/about" 
-            className="w-full max-w-[280px] text-center px-[24px] py-[10px] bg-[#1A1A1D] border border-[#555555] rounded-full text-[#FFFFFF] font-medium text-lg hover:bg-[#333333] hover:border-[#777777] transition-all duration-300 shadow-[0_4px_12px_rgba(0,0,0,0.3)]"
-          >
-            About
-          </a>
-           
-          <a 
-            href="/blog" 
-            className="w-full max-w-[280px] text-center px-[24px] py-[10px] bg-[#1A1A1D] border border-[#555555] rounded-full text-[#FFFFFF] font-medium text-lg hover:bg-[#333333] hover:border-[#777777] transition-all duration-300 shadow-[0_4px_12px_rgba(0,0,0,0.3)]"
-          >
-            Blog
-          </a>
-           <a 
-            href="/jobjarvis" 
-            className="w-full max-w-[280px] text-center px-[24px] py-[10px] bg-[#1A1A1D] border border-[#555555] rounded-full text-[#FFFFFF] font-medium text-lg hover:bg-[#333333] hover:border-[#777777] transition-all duration-300 shadow-[0_4px_12px_rgba(0,0,0,0.3)]"
-          >
-            Job Jarvis
-          </a>
+              <button className="w-full max-w-[280px] px-[32px] py-[12px] bg-[#1A1A1D] border border-[#555555] rounded-full text-[#FFFFFF] font-medium text-lg hover:bg-[#333333] transition-colors">
+                The Job Journal
+              </button>
+              <button className="w-full max-w-[280px] px-[24px] py-[12px] bg-[#1A1A1D] border border-[#555555] rounded-full text-[#FFFFFF] font-medium text-lg hover:bg-[#333333] transition-colors">
+                Job Jarvis
+              </button>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import { Gift, Check } from "lucide-react";
 
 export default function Subs() {
   const handleButtonClick = () => {
-    window.open("https://jobjarvis.infinityandbeyond.co/", "_blank");
+    window.open("https://razorpay.me/@nayakibhandaru", "_blank");
   };
 
   const plans = [
@@ -32,8 +32,8 @@ export default function Subs() {
   ];
 
   return (
+    <> 
     <div className="min-h-screen pt-20 bg-[#1A1A1D] flex flex-col items-center relative px-4 sm:px-6 lg:px-8 font-dm mb-5">
-   
       <div className="text-center mb-12 max-w-4xl">
         <h1 className="font-bricolage mb-6 tracking-tight text-[36px] sm:text-[44px] lg:text-[56px] bg-gradient-to-b from-white via-neutral-200 to-neutral-400 bg-clip-text text-transparent drop-shadow-[0_2px_2px_rgba(0,0,0,0.45)]">
           Subscription Plans
@@ -49,11 +49,7 @@ export default function Subs() {
         {plans.map((plan, index) => (
           <div
             key={index}
-            className={`relative bg-black rounded-2xl p-6 sm:p-8 border-2 transition-all duration-300 hover:scale-[1.02] max-w-md w-full mx-auto overflow-hidden shadow-[0_12px_40px_rgba(0,0,0,0.45)] ${
-              plan.isPopular
-                ? "border-red-600 shadow-2xl shadow-red-600/20"
-                : "border-gray-700 hover:border-gray-600"
-            }`}
+            className={`relative bg-black rounded-2xl p-6 sm:p-8 border-2 transition-all duration-300 hover:scale-[1.02] max-w-md w-full mx-auto overflow-hidden shadow-[0_12px_40px_rgba(0,0,0,0.45)] border border-[#252627]`}
           >
             <div className="mb-6 sm:mb-8">
               <div className="flex items-baseline text-white">
@@ -108,8 +104,20 @@ export default function Subs() {
           </div>
         ))}
       </div>
-
-     
     </div>
+    <div className="flex justify-center items-center">
+    <button
+        onClick={handleButtonClick}
+        className="flex justify-center items-center gap-2 px-4 py-3 rounded-full text-white 
+                  bg-black hover:bg-gray-900 transition border border-gray-500 z-10 mb-[50px]"
+        style={{ 
+          width: "auto", 
+        }}
+      >
+        <Gift size={16} />
+        Try free demo
+      </button>
+      </div>
+      </>
   );
 }
