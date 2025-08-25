@@ -33,7 +33,7 @@ export default function Subs() {
 
   return (
     <> 
-    <div className="min-h-screen pt-20 bg-[#1A1A1D] flex flex-col items-center relative px-4 sm:px-6 lg:px-8 font-dm mb-5">
+    <div className="pt-20 bg-[#1A1A1D] flex flex-col items-center relative px-4 sm:px-6 lg:px-8 font-dm mb-5">
       <div className="text-center mb-12 max-w-4xl">
         <h1 className="font-bricolage mb-6 tracking-tight text-[36px] sm:text-[44px] lg:text-[56px] bg-gradient-to-b from-white via-neutral-200 to-neutral-400 bg-clip-text text-transparent drop-shadow-[0_2px_2px_rgba(0,0,0,0.45)]">
           Subscription Plans
@@ -109,7 +109,7 @@ export default function Subs() {
     <button
         onClick={handleButtonClick}
         className="flex justify-center items-center gap-2 px-4 py-3 rounded-full text-white 
-                  bg-black hover:bg-gray-900 transition border border-gray-500 z-10 mb-[50px]"
+                  bg-black hover:bg-gray-900 transition border border-gray-500 z-10 mb-[50px] mt-3"
         style={{ 
           width: "auto", 
         }}
